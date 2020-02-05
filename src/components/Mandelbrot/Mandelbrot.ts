@@ -49,8 +49,8 @@ export default class Mandelbrot extends Vue {
 
     const mandelbrotMaterial: THREE.ShaderMaterial = new THREE.ShaderMaterial({
       uniforms: this.uniforms,
-      vertexShader: await (await fetch('/shader/mandelbrot.vert')).text(),
-      fragmentShader: await (await fetch('/shader/mandelbrot.frag')).text()
+      vertexShader: await (await fetch('./shader/mandelbrot.vert')).text(),
+      fragmentShader: await (await fetch('./shader/mandelbrot.frag')).text()
     });
 
     const plane: THREE.Mesh = new THREE.Mesh(
