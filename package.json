@@ -1,0 +1,49 @@
+{
+  "name": "mandelbrot",
+  "version": "1.0.0-alpha.1",
+  "description": "Mandelbrot Fractal",
+  "author": {
+    "email": "chrissi92@hotmail.de",
+    "name": "Christopher Quadflieg"
+  },
+  "repository": "git@github.com:Shinigami92/mandelbrot.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf yarn.lock dist node_modules",
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "~3.6.4",
+    "register-service-worker": "~1.6.2",
+    "three": "~0.113.2",
+    "vue": "~2.6.11",
+    "vue-class-component": "~7.2.2",
+    "vue-property-decorator": "~8.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "~2.19.0",
+    "@typescript-eslint/parser": "~2.19.0",
+    "@vue/cli-plugin-babel": "~4.1.2",
+    "@vue/cli-plugin-eslint": "~4.1.2",
+    "@vue/cli-plugin-pwa": "~4.1.2",
+    "@vue/cli-plugin-typescript": "~4.1.2",
+    "@vue/cli-service": "~4.1.2",
+    "@vue/eslint-config-prettier": "~6.0.0",
+    "@vue/eslint-config-typescript": "~5.0.1",
+    "eslint": "~6.8.0",
+    "eslint-import-resolver-typescript": "~2.0.0",
+    "eslint-plugin-import": "~2.20.1",
+    "eslint-plugin-prettier": "~3.1.2",
+    "eslint-plugin-vue": "~6.1.2",
+    "prettier": "1.19.1",
+    "rimraf": "~3.0.1",
+    "sass": "~1.25.0",
+    "sass-loader": "~8.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "~2.6.11",
+    "webpack": "~4.41.5"
+  }
+}
