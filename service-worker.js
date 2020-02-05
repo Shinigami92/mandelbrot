@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.ab325a21a9f203a6b9946d80e248d521.js"
+  "precache-manifest.9f70f7d18cf7539c92095f6e1c6456e1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mandelbrot"});
